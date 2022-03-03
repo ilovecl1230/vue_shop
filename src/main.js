@@ -17,7 +17,6 @@ import VueQuillEditor from 'vue-quill-editor'
 import 'quill/dist/quill.core.css' // import styles
 import 'quill/dist/quill.snow.css' // for snow theme
 import 'quill/dist/quill.bubble.css' // for bubble theme
->>>>>>> goods_list
 
 import axios from 'axios'
 //配置请求的根路径
@@ -48,7 +47,7 @@ Vue.filter('dateFormat',function(originVal){
 
   return `${year}-${m}-${d} ${hh}-${mm}-${ss}`
 })
->>>>>>> goods_list
+
 
 new Vue({
   router,
